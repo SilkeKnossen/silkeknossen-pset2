@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9BAA0C2B219EF08C00A4BDC3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAA0C2A219EF08C00A4BDC3 /* AppDelegate.swift */; };
+		9BAA0C2D219EF08C00A4BDC3 /* IntroductionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAA0C2C219EF08C00A4BDC3 /* IntroductionViewController.swift */; };
+		9BAA0C30219EF08C00A4BDC3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BAA0C2E219EF08C00A4BDC3 /* Main.storyboard */; };
+		9BAA0C32219EF08F00A4BDC3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9BAA0C31219EF08F00A4BDC3 /* Assets.xcassets */; };
+		9BAA0C35219EF08F00A4BDC3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9BAA0C33219EF08F00A4BDC3 /* LaunchScreen.storyboard */; };
+		9BAA0C40219EF08F00A4BDC3 /* silkeknossen_pset2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAA0C3F219EF08F00A4BDC3 /* silkeknossen_pset2Tests.swift */; };
+		9BAA0C4B219EF08F00A4BDC3 /* silkeknossen_pset2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAA0C4A219EF08F00A4BDC3 /* silkeknossen_pset2UITests.swift */; };
+		9BAA0C5D219EF30600A4BDC3 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAA0C5C219EF30600A4BDC3 /* Story.swift */; };
+		9BAA0C5F21A0497500A4BDC3 /* QuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAA0C5E21A0497400A4BDC3 /* QuestionViewController.swift */; };
+		9BAA0C6121A0498800A4BDC3 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BAA0C6021A0498800A4BDC3 /* ResultViewController.swift */; };
+		9BCA1BB621A1C02800182207 /* madlib0_simple.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BCA1BB121A1C02800182207 /* madlib0_simple.txt */; };
+		9BCA1BB721A1C02800182207 /* madlib3_clothes.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BCA1BB221A1C02800182207 /* madlib3_clothes.txt */; };
+		9BCA1BB821A1C02800182207 /* madlib2_university.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BCA1BB321A1C02800182207 /* madlib2_university.txt */; };
+		9BCA1BB921A1C02800182207 /* madlib4_dance.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BCA1BB421A1C02800182207 /* madlib4_dance.txt */; };
+		9BCA1BBA21A1C02800182207 /* madlib1_tarzan.txt in Resources */ = {isa = PBXBuildFile; fileRef = 9BCA1BB521A1C02800182207 /* madlib1_tarzan.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9BAA0C3C219EF08F00A4BDC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BAA0C1F219EF08B00A4BDC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BAA0C26219EF08C00A4BDC3;
+			remoteInfo = "silkeknossen-pset2";
+		};
+		9BAA0C47219EF08F00A4BDC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9BAA0C1F219EF08B00A4BDC3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9BAA0C26219EF08C00A4BDC3;
+			remoteInfo = "silkeknossen-pset2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9BAA0C27219EF08C00A4BDC3 /* silkeknossen-pset2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "silkeknossen-pset2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BAA0C2A219EF08C00A4BDC3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9BAA0C2C219EF08C00A4BDC3 /* IntroductionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionViewController.swift; sourceTree = "<group>"; };
+		9BAA0C2F219EF08C00A4BDC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9BAA0C31219EF08F00A4BDC3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9BAA0C34219EF08F00A4BDC3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9BAA0C36219EF08F00A4BDC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BAA0C3B219EF08F00A4BDC3 /* silkeknossen-pset2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "silkeknossen-pset2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BAA0C3F219EF08F00A4BDC3 /* silkeknossen_pset2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = silkeknossen_pset2Tests.swift; sourceTree = "<group>"; };
+		9BAA0C41219EF08F00A4BDC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BAA0C46219EF08F00A4BDC3 /* silkeknossen-pset2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "silkeknossen-pset2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9BAA0C4A219EF08F00A4BDC3 /* silkeknossen_pset2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = silkeknossen_pset2UITests.swift; sourceTree = "<group>"; };
+		9BAA0C4C219EF08F00A4BDC3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9BAA0C5C219EF30600A4BDC3 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Story.swift; path = ../../../madlibs_ios/Story.swift; sourceTree = "<group>"; };
+		9BAA0C5E21A0497400A4BDC3 /* QuestionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionViewController.swift; sourceTree = "<group>"; };
+		9BAA0C6021A0498800A4BDC3 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
+		9BCA1BB121A1C02800182207 /* madlib0_simple.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib0_simple.txt; path = ../../../madlibs_ios/madlib0_simple.txt; sourceTree = "<group>"; };
+		9BCA1BB221A1C02800182207 /* madlib3_clothes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib3_clothes.txt; path = ../../../madlibs_ios/madlib3_clothes.txt; sourceTree = "<group>"; };
+		9BCA1BB321A1C02800182207 /* madlib2_university.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib2_university.txt; path = ../../../madlibs_ios/madlib2_university.txt; sourceTree = "<group>"; };
+		9BCA1BB421A1C02800182207 /* madlib4_dance.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib4_dance.txt; path = ../../../madlibs_ios/madlib4_dance.txt; sourceTree = "<group>"; };
+		9BCA1BB521A1C02800182207 /* madlib1_tarzan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = madlib1_tarzan.txt; path = ../../../madlibs_ios/madlib1_tarzan.txt; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9BAA0C24219EF08C00A4BDC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BAA0C38219EF08F00A4BDC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BAA0C43219EF08F00A4BDC3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9BAA0C1E219EF08B00A4BDC3 = {
+			isa = PBXGroup;
+			children = (
+				9BAA0C29219EF08C00A4BDC3 /* silkeknossen-pset2 */,
+				9BAA0C3E219EF08F00A4BDC3 /* silkeknossen-pset2Tests */,
+				9BAA0C49219EF08F00A4BDC3 /* silkeknossen-pset2UITests */,
+				9BAA0C28219EF08C00A4BDC3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9BAA0C28219EF08C00A4BDC3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9BAA0C27219EF08C00A4BDC3 /* silkeknossen-pset2.app */,
+				9BAA0C3B219EF08F00A4BDC3 /* silkeknossen-pset2Tests.xctest */,
+				9BAA0C46219EF08F00A4BDC3 /* silkeknossen-pset2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9BAA0C29219EF08C00A4BDC3 /* silkeknossen-pset2 */ = {
+			isa = PBXGroup;
+			children = (
+				9BCA1BB121A1C02800182207 /* madlib0_simple.txt */,
+				9BCA1BB521A1C02800182207 /* madlib1_tarzan.txt */,
+				9BCA1BB321A1C02800182207 /* madlib2_university.txt */,
+				9BCA1BB221A1C02800182207 /* madlib3_clothes.txt */,
+				9BCA1BB421A1C02800182207 /* madlib4_dance.txt */,
+				9BAA0C5C219EF30600A4BDC3 /* Story.swift */,
+				9BAA0C5E21A0497400A4BDC3 /* QuestionViewController.swift */,
+				9BAA0C6021A0498800A4BDC3 /* ResultViewController.swift */,
+				9BAA0C2A219EF08C00A4BDC3 /* AppDelegate.swift */,
+				9BAA0C2C219EF08C00A4BDC3 /* IntroductionViewController.swift */,
+				9BAA0C2E219EF08C00A4BDC3 /* Main.storyboard */,
+				9BAA0C31219EF08F00A4BDC3 /* Assets.xcassets */,
+				9BAA0C33219EF08F00A4BDC3 /* LaunchScreen.storyboard */,
+				9BAA0C36219EF08F00A4BDC3 /* Info.plist */,
+			);
+			path = "silkeknossen-pset2";
+			sourceTree = "<group>";
+		};
+		9BAA0C3E219EF08F00A4BDC3 /* silkeknossen-pset2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9BAA0C3F219EF08F00A4BDC3 /* silkeknossen_pset2Tests.swift */,
+				9BAA0C41219EF08F00A4BDC3 /* Info.plist */,
+			);
+			path = "silkeknossen-pset2Tests";
+			sourceTree = "<group>";
+		};
+		9BAA0C49219EF08F00A4BDC3 /* silkeknossen-pset2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				9BAA0C4A219EF08F00A4BDC3 /* silkeknossen_pset2UITests.swift */,
+				9BAA0C4C219EF08F00A4BDC3 /* Info.plist */,
+			);
+			path = "silkeknossen-pset2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9BAA0C26219EF08C00A4BDC3 /* silkeknossen-pset2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BAA0C4F219EF08F00A4BDC3 /* Build configuration list for PBXNativeTarget "silkeknossen-pset2" */;
+			buildPhases = (
+				9BAA0C23219EF08C00A4BDC3 /* Sources */,
+				9BAA0C24219EF08C00A4BDC3 /* Frameworks */,
+				9BAA0C25219EF08C00A4BDC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "silkeknossen-pset2";
+			productName = "silkeknossen-pset2";
+			productReference = 9BAA0C27219EF08C00A4BDC3 /* silkeknossen-pset2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9BAA0C3A219EF08F00A4BDC3 /* silkeknossen-pset2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BAA0C52219EF08F00A4BDC3 /* Build configuration list for PBXNativeTarget "silkeknossen-pset2Tests" */;
+			buildPhases = (
+				9BAA0C37219EF08F00A4BDC3 /* Sources */,
+				9BAA0C38219EF08F00A4BDC3 /* Frameworks */,
+				9BAA0C39219EF08F00A4BDC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BAA0C3D219EF08F00A4BDC3 /* PBXTargetDependency */,
+			);
+			name = "silkeknossen-pset2Tests";
+			productName = "silkeknossen-pset2Tests";
+			productReference = 9BAA0C3B219EF08F00A4BDC3 /* silkeknossen-pset2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9BAA0C45219EF08F00A4BDC3 /* silkeknossen-pset2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9BAA0C55219EF08F00A4BDC3 /* Build configuration list for PBXNativeTarget "silkeknossen-pset2UITests" */;
+			buildPhases = (
+				9BAA0C42219EF08F00A4BDC3 /* Sources */,
+				9BAA0C43219EF08F00A4BDC3 /* Frameworks */,
+				9BAA0C44219EF08F00A4BDC3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9BAA0C48219EF08F00A4BDC3 /* PBXTargetDependency */,
+			);
+			name = "silkeknossen-pset2UITests";
+			productName = "silkeknossen-pset2UITests";
+			productReference = 9BAA0C46219EF08F00A4BDC3 /* silkeknossen-pset2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9BAA0C1F219EF08B00A4BDC3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Silke Knossen";
+				TargetAttributes = {
+					9BAA0C26219EF08C00A4BDC3 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					9BAA0C3A219EF08F00A4BDC3 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 9BAA0C26219EF08C00A4BDC3;
+					};
+					9BAA0C45219EF08F00A4BDC3 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = 9BAA0C26219EF08C00A4BDC3;
+					};
+				};
+			};
+			buildConfigurationList = 9BAA0C22219EF08B00A4BDC3 /* Build configuration list for PBXProject "silkeknossen-pset2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9BAA0C1E219EF08B00A4BDC3;
+			productRefGroup = 9BAA0C28219EF08C00A4BDC3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9BAA0C26219EF08C00A4BDC3 /* silkeknossen-pset2 */,
+				9BAA0C3A219EF08F00A4BDC3 /* silkeknossen-pset2Tests */,
+				9BAA0C45219EF08F00A4BDC3 /* silkeknossen-pset2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9BAA0C25219EF08C00A4BDC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BCA1BB921A1C02800182207 /* madlib4_dance.txt in Resources */,
+				9BCA1BBA21A1C02800182207 /* madlib1_tarzan.txt in Resources */,
+				9BAA0C35219EF08F00A4BDC3 /* LaunchScreen.storyboard in Resources */,
+				9BAA0C32219EF08F00A4BDC3 /* Assets.xcassets in Resources */,
+				9BCA1BB721A1C02800182207 /* madlib3_clothes.txt in Resources */,
+				9BCA1BB621A1C02800182207 /* madlib0_simple.txt in Resources */,
+				9BCA1BB821A1C02800182207 /* madlib2_university.txt in Resources */,
+				9BAA0C30219EF08C00A4BDC3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BAA0C39219EF08F00A4BDC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BAA0C44219EF08F00A4BDC3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9BAA0C23219EF08C00A4BDC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BAA0C6121A0498800A4BDC3 /* ResultViewController.swift in Sources */,
+				9BAA0C2D219EF08C00A4BDC3 /* IntroductionViewController.swift in Sources */,
+				9BAA0C2B219EF08C00A4BDC3 /* AppDelegate.swift in Sources */,
+				9BAA0C5F21A0497500A4BDC3 /* QuestionViewController.swift in Sources */,
+				9BAA0C5D219EF30600A4BDC3 /* Story.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BAA0C37219EF08F00A4BDC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BAA0C40219EF08F00A4BDC3 /* silkeknossen_pset2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BAA0C42219EF08F00A4BDC3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9BAA0C4B219EF08F00A4BDC3 /* silkeknossen_pset2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9BAA0C3D219EF08F00A4BDC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BAA0C26219EF08C00A4BDC3 /* silkeknossen-pset2 */;
+			targetProxy = 9BAA0C3C219EF08F00A4BDC3 /* PBXContainerItemProxy */;
+		};
+		9BAA0C48219EF08F00A4BDC3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9BAA0C26219EF08C00A4BDC3 /* silkeknossen-pset2 */;
+			targetProxy = 9BAA0C47219EF08F00A4BDC3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9BAA0C2E219EF08C00A4BDC3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BAA0C2F219EF08C00A4BDC3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9BAA0C33219EF08F00A4BDC3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9BAA0C34219EF08F00A4BDC3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9BAA0C4D219EF08F00A4BDC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9BAA0C4E219EF08F00A4BDC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9BAA0C50219EF08F00A4BDC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5N98B9FF9P;
+				INFOPLIST_FILE = "silkeknossen-pset2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Silke.silkeknossen-pset2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9BAA0C51219EF08F00A4BDC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5N98B9FF9P;
+				INFOPLIST_FILE = "silkeknossen-pset2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Silke.silkeknossen-pset2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		9BAA0C53219EF08F00A4BDC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5N98B9FF9P;
+				INFOPLIST_FILE = "silkeknossen-pset2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Silke.silkeknossen-pset2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/silkeknossen-pset2.app/silkeknossen-pset2";
+			};
+			name = Debug;
+		};
+		9BAA0C54219EF08F00A4BDC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5N98B9FF9P;
+				INFOPLIST_FILE = "silkeknossen-pset2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Silke.silkeknossen-pset2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/silkeknossen-pset2.app/silkeknossen-pset2";
+			};
+			name = Release;
+		};
+		9BAA0C56219EF08F00A4BDC3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5N98B9FF9P;
+				INFOPLIST_FILE = "silkeknossen-pset2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Silke.silkeknossen-pset2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "silkeknossen-pset2";
+			};
+			name = Debug;
+		};
+		9BAA0C57219EF08F00A4BDC3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5N98B9FF9P;
+				INFOPLIST_FILE = "silkeknossen-pset2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Silke.silkeknossen-pset2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "silkeknossen-pset2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9BAA0C22219EF08B00A4BDC3 /* Build configuration list for PBXProject "silkeknossen-pset2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BAA0C4D219EF08F00A4BDC3 /* Debug */,
+				9BAA0C4E219EF08F00A4BDC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BAA0C4F219EF08F00A4BDC3 /* Build configuration list for PBXNativeTarget "silkeknossen-pset2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BAA0C50219EF08F00A4BDC3 /* Debug */,
+				9BAA0C51219EF08F00A4BDC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BAA0C52219EF08F00A4BDC3 /* Build configuration list for PBXNativeTarget "silkeknossen-pset2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BAA0C53219EF08F00A4BDC3 /* Debug */,
+				9BAA0C54219EF08F00A4BDC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9BAA0C55219EF08F00A4BDC3 /* Build configuration list for PBXNativeTarget "silkeknossen-pset2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9BAA0C56219EF08F00A4BDC3 /* Debug */,
+				9BAA0C57219EF08F00A4BDC3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9BAA0C1F219EF08B00A4BDC3 /* Project object */;
+}
