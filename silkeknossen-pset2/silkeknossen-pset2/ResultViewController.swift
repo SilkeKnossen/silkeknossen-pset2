@@ -10,13 +10,17 @@ import UIKit
 
 class ResultViewController: UIViewController {
 
+    // Create outlet
     @IBOutlet weak var fullStoryLabel: UILabel!
+    
+    // Initialize the Story variable.
     var fullStory: Story!
     
+    // When the view did load, load the filled in story to the view.
     override func viewDidLoad() {
         navigationItem.hidesBackButton = true
         super.viewDidLoad()
-        fullStoryLabel.text = fullStory.normalText
+        fullStoryLabel.attributedText = fullStory.attributedText
     }
     
 

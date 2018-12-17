@@ -11,40 +11,54 @@ import Foundation
 
 class IntroductionViewController: UIViewController, UIPickerViewDelegate, UIPickerViewDataSource {
     
+    // Create Outlet for picker.
     @IBOutlet weak var picker: UIPickerView!
     
+    // Set picker data.
     let pickerOptions = ["Simple", "Tarzan", "University", "Clothes", "Dance"]
     
+    // Initialize story type that is selected.
     var selectedStory: String = ""
+    
+    // Initialize the story text.
     var storyText: String = ""
+    
+    // Initialize a Story.
     var thisStory: Story = Story(withText: "")
 
+    // When the view did load, load the data into the picker.
     override func viewDidLoad() {
         super.viewDidLoad()
         self.picker.delegate = self
         self.picker.dataSource = self
     }
 
+    // Handle memory warnings.
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
 
+    // Set columns of picker to 1.
     func numberOfComponents(in pickerView: UIPickerView) -> Int {
         return 1
     }
 
+    // Set rows of picker to number of elements in the picker data array.
     func pickerView(_ pickerView: UIPickerView, numberOfRowsInComponent component: Int) -> Int {
         return pickerOptions.count
     }
 
+    // Load one element of picker data array into a picker row.
     func pickerView(_ pickerView: UIPickerView, titleForRow row: Int, forComponent component: Int) -> String? {
         return pickerOptions[row]
     }
 
+    // Set the selected element from the picker as the story type.
     func pickerView(_ pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int) {
         selectedStory = pickerOptions[row]
     }
     
+    // Load and decode content of selected path.
     func content(_ path:String)->String? {
         do {
             let content = try String(contentsOfFile: path, encoding: String.Encoding.utf8) as String
@@ -54,6 +68,7 @@ class IntroductionViewController: UIViewController, UIPickerViewDelegate, UIPick
         }
     }
     
+    // When start button is pressed, load the story of the selected story type.
     @IBAction func StartButtonPressed(_ sender: Any) {
         var filepath: String = ""
         
@@ -82,6 +97,7 @@ class IntroductionViewController: UIViewController, UIPickerViewDelegate, UIPick
         thisStory = Story(withText: storyText)
     }
     
+    // Give the Story to the question view controller.
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         if segue.identifier == "QuestionsSegue" {
             let navigationController = segue.destination as! UINavigationController
@@ -90,8 +106,9 @@ class IntroductionViewController: UIViewController, UIPickerViewDelegate, UIPick
         }
     }
     
+    // Make unwinding to this controller possible.
     @IBAction func unwindToIntroduction(segue:
-        UIStoryboardSegue) {    
+        UIStoryboardSegue) {
     }
 
 }
